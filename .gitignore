@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+*.egg-info/
+
+# Secrets - لا تصل إلى git أبداً
+.env
+
+# Runtime data - on Railway a persistent volume is mounted at /app/cases
+cases/
+
+# Local logs / helpers
+*.log
+install_deps.py
+install_pkgs.py
+test_runner.py
+listing.txt

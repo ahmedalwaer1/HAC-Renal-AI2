@@ -1,0 +1,8 @@
+pandas
+openpyxl
+streamlit==1.66.1
+langchain==0.3.27
+langchain-community==0.3.27
+langchain-openai==0.3.33
+python-dotenv
+pytest
